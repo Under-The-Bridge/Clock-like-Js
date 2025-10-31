@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-2.5vw);
+}
+main{
+    font-size: 4.5vw;
+    p{
+        transform: translateX(10vw);
+    }
+    p:first-child,p:last-child{
+        transform: none;
+    }
+}
+#Background{
+    background-color: #1e1f22;
+}
+.ReservedWord{
+    color: #cf8e6d;
+}
+.Text{
+    color: #bcbec4;
+}
+.Integer{
+    color: #2aacb8;
+}
+.String{
+    color: #6aab73;
+}
